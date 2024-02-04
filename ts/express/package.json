@@ -2,18 +2,18 @@
   "name": "rithmschool-start-ts-express",
   "version": "1.0.0",
   "homepage": "https://github.com/rithmschool/start/",
-  "main": "app.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "start:debug": "node --inspect-brk server.js",
-    "test": "vitest",
-    "test:cov": "vitest --coverage",
-    "test:debug": "vitest --run --inspect-brk --no-file-parallelism"
+    "start": "node $npm_package_main",
+    "start:debug": "node --inspect-brk $npm_package_main",
+    "test": "vitest ts",
+    "test:cov": "vitest ts --coverage",
+    "test:debug": "vitest -t *.ts --run --inspect-brk --no-file-parallelism"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
     "@types/node": "^20.11.16",
-    "@tsconfig/node21": "^21.0.1",
     "@types/supertest": "^6.0.2",
     "supertest": "^6.3.4",
     "vitest": "^1.2.2"

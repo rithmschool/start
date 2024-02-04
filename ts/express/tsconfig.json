@@ -1,8 +1,9 @@
 {
-    "extends": "@tsconfig/node21",
     "compilerOptions": {
         "target": "ES2021",
         "strict": true,
+        "skipLibCheck": true,
+        "moduleResolution": "Node",
+        "allowSyntheticDefaultImports": true
     },
-    "exclude": ["**/*test*"]
 }

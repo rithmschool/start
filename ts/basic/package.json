@@ -5,16 +5,13 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "node main.js",
+    "start": "node $npm_package_main.js",
     "start:debug": "node --inspect-brk main.js",
-    "test": "vitest",
-    "test:cov": "vitest --coverage",
-    "test:debug": "vitest --run --inspect-brk --no-file-parallelism"
+    "test": "vitest ts",
+    "test:cov": "vitest ts --coverage",
+    "test:debug": "vitest ts --run --inspect-brk --no-file-parallelism"
   },
   "devDependencies": {
-    "@types/node": "^20.11.16"
-  },
-  "dependencies": {
     "vitest": "^1.2.2"
   }
 }

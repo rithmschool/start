@@ -2,21 +2,21 @@
   "name": "rithmschool-start-js-express",
   "version": "1.0.0",
   "homepage": "https://github.com/rithmschool/start/",
-  "main": "app.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "start:debug": "node --inspect-brk server.js",
+    "start": "node $npm_package_main",
+    "start:debug": "node --inspect-brk $npm_package_main",
     "test": "vitest",
     "test:cov": "vitest --coverage",
     "test:debug": "vitest --run --inspect-brk --no-file-parallelism"
   },
   "devDependencies": {
-    "@types/express": "^4.17.21",
     "@types/node": "^20.11.16",
-    "@vitest/coverage-v8": "^1.2.2",
-    "vitest": "^1.2.2",
-    "supertest": "^6.3.4"
+    "@types/express": "^4.17.21",
+    "@types/supertest": "^6.0.2",
+    "supertest": "^6.3.4",
+    "vitest": "^1.2.2"
   },
   "dependencies": {
     "express": "^5.0.0-beta.1"

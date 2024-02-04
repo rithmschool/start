@@ -1,6 +1,5 @@
-import { useState } from 'react';
-import logo from './logo.svg'
-import './App.css';
+import { useState } from "react";
+import "./App.css";
 
 
 /** Component for entire page.
@@ -8,7 +7,7 @@ import './App.css';
  * Props: none
  * State: none
  *
-*/
+ */
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,13 +19,12 @@ function App() {
   return (
     <div className="App">
       <main>
-        <img src={logo} className="App-logo" alt="Rithm" />
         <h1>Rithm React Starter</h1>
         <p>
           <button
-              className="btn btn-primary"
-              onClick={incrCount}>
-            Clicked: {count}
+            className="btn btn-primary"
+            onClick={ incrCount }>
+            Clicked: { count }
           </button>
         </p>
         <p>

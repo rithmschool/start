@@ -2,7 +2,7 @@
     "compilerOptions": {
         "target": "ES2021",
         "strict": true,
+        "moduleResolution": "Node",
         "skipLibCheck": true
     },
-    "exclude": ["**/*test*"]
 }
