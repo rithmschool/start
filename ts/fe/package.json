@@ -1,14 +1,15 @@
 {
-  "name": "fe",
+  "name": "rithmschool-start-ts-fe",
   "version": "1.0.0",
+  "homepage": "https://github.com/rithmschool/start/",
   "main": "app.js",
   "type": "module",
   "scripts": {
     "start": "node main.js",
+    "start:debug": "node --inspect-brk main.js",
     "test": "vitest",
     "coverage": "vitest --coverage",
-    "debug": "node --inspect-brk main.js",
-    "debug:test": "node --inspect-brk $(which vitest)"
+    "debug:test": "vitest --inspect-brk"
   },
   "devDependencies": {
     "@types/node": "^20.11.16",

@@ -1,13 +1,13 @@
 {
-  "name": "rithmschool-react-starter",
-  "version": "1.4.0",
+  "name": "rithmschool-start-js-react",
+  "version": "1.0.0",
+  "homepage": "https://github.com/rithmschool/start/",
   "type": "module",
   "scripts": {
     "start": "vite --port 3000 --open",
-    "dev": "vite --port 3000 --open",
     "build": "vite build",
     "test": "vitest",
-    "coverage": "vitest --coverage",
+    "test:coverage": "vitest --coverage",
     "test:debug": "vitest --inspect-brk"
   },
   "dependencies": {

@@ -1,18 +1,15 @@
 {
-  "name": "rithmschool-start-js-node",
+  "name": "rithmschool-start-js-basic",
   "version": "1.0.0",
   "homepage": "https://github.com/rithmschool/start/",
-  "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "node main.js",
-    "start:debug": "node --inspect-brk main.js",
     "test": "vitest",
     "test:cov": "vitest --coverage",
-    "debug:test": "vitest --inspect-brk"
+    "test:debug": "vitest --inspect-brk"
   },
   "devDependencies": {
-    "@types/node": "^20.11.16",
+    "@vitest/coverage-v8": "^1.2.2",
     "vitest": "^1.2.2"
   }
 }

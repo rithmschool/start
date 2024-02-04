@@ -1,10 +1,10 @@
-Basic FE JS Starter
-===================
+# Basic FE JS Starter
+
 
 First:
 
 ```
-$ npm install -g vite
+$ npm install
 ```
 
 To start basic dev server:
@@ -13,4 +13,10 @@ To start basic dev server:
 $ vite
 ```
 
+To run tests:
 
+```
+$ vitest
+$ vitest --inspect-brk   # to use Chrome debugger
+$ vitest --coverage
+```

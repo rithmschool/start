@@ -1,14 +1,15 @@
-Simple JS Starter
-=================
+# Simple JS Starter
 
-To run tests, install vitest:
+To set up:
 
 ```
-$ npm install -g vitest
+$ npm install
 ```
 
 Then, to run tests:
 
 ```
 $ vitest
+$ vitest --inspect-brk   # to use Chrome debugger
+$ vitest --coverage      # to get coverage report
 ```
