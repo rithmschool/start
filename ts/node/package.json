@@ -11,7 +11,8 @@
     "debug:test": "node --inspect-brk $(which vitest)"
   },
   "devDependencies": {
-    "@types/node": "^20.11.16"
+    "@types/node": "^20.11.16",
+    "vitest": "^1.2.2"
   },
   "dependencies": {
     "@tsconfig/node21": "^21.0.1"
