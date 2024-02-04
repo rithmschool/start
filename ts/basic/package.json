@@ -1,0 +1,19 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "vitest",
+    "coverage": "vitest --coverage",
+    "debug": "node --inspect-brk main.js",
+    "debug:test": "node --inspect-brk $(which vitest)"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16"
+  },
+  "dependencies": {
+    "vitest": "^1.2.2"
+  }
+}

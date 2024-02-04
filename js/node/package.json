@@ -1,0 +1,17 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "vitest",
+    "coverage": "vitest --coverage",
+    "debug": "node --inspect-brk main.js",
+    "debug:test": "vitest --inspect-brk"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "vitest": "^1.2.2"
+  }
+}

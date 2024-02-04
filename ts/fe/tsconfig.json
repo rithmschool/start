@@ -1,0 +1,9 @@
+{
+    "extends": "@tsconfig/node21",
+    "compilerOptions": {
+        "lib": ["ES2020", "DOM", "DOM.Iterable"],
+        "target": "ES2021",
+        "strict": true,
+    },
+    "exclude": ["**/*test*"]
+}

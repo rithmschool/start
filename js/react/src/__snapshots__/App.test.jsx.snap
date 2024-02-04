@@ -1,0 +1,34 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`matches snapshot 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <main>
+      <img
+        alt="Rithm"
+        class="App-logo"
+        src="/src/logo.svg"
+      />
+      <h1>
+        Rithm React Starter
+      </h1>
+      <p>
+        <button
+          class="btn btn-primary"
+        >
+          Clicked: 
+          0
+        </button>
+      </p>
+      <p>
+        Edit 
+        <code>
+          src/App.jsx
+        </code>
+      </p>
+    </main>
+  </div>
+</div>
+`;

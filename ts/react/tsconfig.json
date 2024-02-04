@@ -1,0 +1,7 @@
+{
+    "extends": "@tsconfig/vite-react",
+    "compilerOptions": {
+        "target": "ES2021",
+        "strict": true
+    }
+}

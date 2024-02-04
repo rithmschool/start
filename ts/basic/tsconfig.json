@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES2021",
+        "strict": true,
+        "module": "ESNext",
+        "esModuleInterop": true,
+        "skipLibCheck": true
+    },
+    "exclude": ["**/*test*"]
+}
