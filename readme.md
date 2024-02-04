@@ -16,7 +16,7 @@ Then, to add a project, run `degit` with the template you want (see below for te
 degit rithmschool/js/basic MYAPPNAME
 ```
 
-# JavaScript Templates
+### JavaScript Templates
 
 | Name       | Description                           |
 |------------|---------------------------------------|
@@ -26,17 +26,17 @@ degit rithmschool/js/basic MYAPPNAME
 | js/express | Basic express setup                   |
 | js/react   | Create React App compatible with vite |
 
-# TypeScript Templates
+### TypeScript Templates
 
 | Name       | Description                           |
 |------------|---------------------------------------|
-| ts/basic   | Very simple JS                        |
+| ts/basic   | Very simple TS                        |
 | ts/fe      | Vanilla front-end with vite server    |
 | ts/node    | Basic node setup                      |
 | ts/express | Basic express setup                   |
 | ts/react   | Create React App compatible with vite |
 
-# License and authorship
+### License and authorship
 
 These templates install products licensed under different Open Source licenses. 
 The templates themselves are licensed under the MIT license.
