@@ -9,7 +9,7 @@
     "start:debug": "node --inspect-brk main.js",
     "test": "vitest",
     "test:cov": "vitest --coverage",
-    "debug:test": "vitest --inspect-brk"
+    "test:debug": "vitest --run --inspect-brk --no-file-parallelism"
   },
   "devDependencies": {
     "@types/node": "^20.11.16",

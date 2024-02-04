@@ -6,7 +6,7 @@
   "scripts": {
     "test": "vitest",
     "test:cov": "vitest --coverage",
-    "test:debug": "vitest --inspect-brk"
+    "test:debug": "vitest --run --inspect-brk --no-file-parallelism"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^1.2.2",

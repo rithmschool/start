@@ -8,7 +8,7 @@
     "build": "vite build",
     "test": "vitest",
     "test:cov": "vitest --coverage",
-    "test:debug": "vitest --inspect-brk",
+    "test:debug": "vitest --run --inspect-brk --no-file-parallelism"
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
