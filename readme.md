@@ -13,7 +13,7 @@ npm install -g vitest degit
 Then, to add a project, run `degit` with the template you want (see below for templates):
 
 ```
-degit rithmschool/js/basic MYAPPNAME
+degit rithmschool/start/js/basic MYAPPNAME
 ```
 
 ### JavaScript Templates
