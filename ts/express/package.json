@@ -2,10 +2,10 @@
   "name": "rithmschool-start-ts-express",
   "version": "1.0.0",
   "homepage": "https://github.com/rithmschool/start/",
-  "main": "server.js",
+  "main": "server.ts",
   "type": "module",
   "scripts": {
-    "start": "node $npm_package_main",
+    "start": "node build/server.js",
     "start:debug": "node --inspect-brk $npm_package_main",
     "test": "vitest ts",
     "test:cov": "vitest ts --coverage",
