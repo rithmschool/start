@@ -41,4 +41,4 @@ degit rithmschool/start/js/basic MYAPPNAME
 These templates install products licensed under different Open Source licenses. 
 The templates themselves are licensed under the MIT license.
 
-Author: Joel Burton <joel@rithschool.com>
+Author: Joel Burton <joel@rithmschool.com>
