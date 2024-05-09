@@ -5,14 +5,12 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "node $npm_package_main",
-    "start:debug": "node --inspect-brk $npm_package_main",
-    "test": "vitest ts",
-    "test:cov": "vitest ts --coverage",
-    "test:debug": "vitest ts --run --inspect-brk --no-file-parallelism"
+    "test": "vitest",
+    "test:cov": "vitest --coverage"
   },
   "devDependencies": {
-    "@types/node": "^20.11.16",
-    "vitest": "^1.2.2"
+    "@types/node": "^20.12.11",
+    "vitest": "^1.6.0",
+    "@vitest/coverage-v8": "^1.6.0"
   }
 }

@@ -7,11 +7,11 @@
   "scripts": {
     "start": "vite --open",
     "test": "vitest",
-    "test:cov": "vitest --coverage",
-    "test:debug": "vitest --run --inspect-brk --no-file-parallelism"
+    "test:cov": "vitest --coverage"
   },
   "devDependencies": {
-    "vite": "^5.0.12",
-    "vitest": "^1.2.2"
+    "vite": "^5.2.11",
+    "vitest": "^1.6.0",
+    "@vitest/coverage-v8": "^1.6.0"
   }
 }
