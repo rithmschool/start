@@ -5,11 +5,9 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node $npm_package_main",
-    "start:debug": "node --inspect-brk $npm_package_main",
+    "start": "node server.js",
     "test": "vitest",
-    "test:cov": "vitest --coverage",
-    "test:debug": "vitest --run --inspect-brk --no-file-parallelism"
+    "test:cov": "vitest --coverage"
   },
   "devDependencies": {
     "@types/node": "^20.12.11",
