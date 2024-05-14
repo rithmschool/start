@@ -4,6 +4,7 @@ import { add } from "./add.js";
 
 const app = express();
 app.use(express.json());
+app.use(express.urlencoded());
 
 /** Sample route */
 app.get("/", function (req, res) {
